@@ -30,7 +30,7 @@ It should look like this everytime you scp now, you no longer have to input a pa
 
 **Step 7**: Lastly, you can speed up the process up even more by doing things such as writing commands in quotes after the `ssh your-user@ieng6.ucsd.edu`. You can also use ; to run multiple commands or copy over several files at once.
 
-Now you're done!
+**Now you're done!**
 
 
 
