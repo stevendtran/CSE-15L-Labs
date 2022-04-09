@@ -10,25 +10,25 @@ When you open up VSCode it should look something like this(Although it should lo
 ![Picture](Pics/VSCode.png)  
 **Step two**: Next, to open the terminal in VSCode you will go to the top of the screen on the menu bar and click terminal.  
 ![Picture](Pics/Oterminal.png)  
-**Step three**: Now that you terminal is opened you will want to type in *ssh your-user@ieng6.ucsd.edu* into the terminal. After that it will prompt you to type you password. Do not worry if nothing is showing, the terminal is hiding your password (Note that if you are on a windows you might need to download OpenSSH.Client and OpenSSH.Server, that directions to that is [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)). 
+**Step three**: Now that you terminal is opened you will want to type in `ssh your-user@ieng6.ucsd.edu` into the terminal. After that it will prompt you to type you password. Do not worry if nothing is showing, the terminal is hiding your password (Note that if you are on a windows you might need to download OpenSSH.Client and OpenSSH.Server, that directions to that is [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)). 
 ![Picture](Pics/SignedInT.png)  
 **Step Four**: Now you will want to try out some of the commands (Note that these command might not work on locally on windows):
-* ls (list)
-* cd (change directory)
-* cat (run the file)
-* rm (remove)
+* `ls` (list)
+* `cd` (change directory)
+* `cat` (run the file)
+* `rm` (remove)
 * There are also add-ons that you can put after like -a, -l, and -ls
 * There are also a lot more commands that can be ran  
 ![Picture](Pics/commands.png)    
 
-**Step 5**: Next, you will want to try and copy some files from your local computer to the server. You will use *scp fileName.java your-user@ieng6.ucsd.edu:~/*. Then it will prompt you again to put in your password. To check if the file is in your server you will want to log back into your server using ssh and using the command ls. If you see your transfers file than the copying file from your local to your server was successful.
+**Step 5**: Next, you will want to try and copy some files from your local computer to the server. You will use `scp fileName.java your-user@ieng6.ucsd.edu:~/`. Then it will prompt you again to put in your password. To check if the file is in your server you will want to log back into your server using ssh and using the command ls. If you see your transfers file than the copying file from your local to your server was successful.  
 Successfully copying a file over should look like this:
 ![Picture](Pics/success.png)
-**Step 6**: After, you will want to make ssh key so that you no-longer have to type in the password everytime. To do this you type *ssh-keygen* into your terminal. The terminal will ask for a passphrase, you just press enter twice. Then it will generate a ssh key for you (Note if you have a windows you need to complete extra steps to generate the ssh key, the instruction can be found [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)).
+**Step 6**: After, you will want to make ssh key so that you no-longer have to type in the password everytime. To do this you type `ssh-keygen` into your terminal. The terminal will ask for a passphrase, you just press enter twice. Then it will generate a ssh key for you (Note if you have a windows you need to complete extra steps to generate the ssh key, the instruction can be found [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)).  
 It should look like this everytime you scp now, you no longer have to input a password:
 ![Picture](Pics/keygen.png)
 
-**Step 7**: Lastly, you can speed up the process up even more by doing things such as writing commands in quotes after the *ssh your-user@ieng6.ucsd.edu*. You can also use ; to run multiple commands or copy over several files at once.
+**Step 7**: Lastly, you can speed up the process up even more by doing things such as writing commands in quotes after the `ssh your-user@ieng6.ucsd.edu`. You can also use ; to run multiple commands or copy over several files at once.
 
 Now you're done!
 
