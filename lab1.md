@@ -31,7 +31,8 @@ It should look like this everytime you scp now, you no longer have to input a pa
 **Step 7**: (*Optimization*) Lastly, on top of the not having to put in the password everytime you copy the files you can speed up the process up even more by doing things such as writing commands in quotes after the `ssh your-user@ieng6.ucsd.edu`. You can also run multiple commands or copy over several files at once all in one line of code.
 * One example of time saving commands would be `scp file1.java file2.java your-user@ieng6.ucsd.edu:~/` this will copy over both file1.java and file2.java into the server's directory.
 * Another example would be `ssh your-user@ieng6.ucsd.edu "javac Config.java; java Config"` this will both compile and run your code on the server.  
-* You can run other commands a long with logging into the server.  
+* You can run other commands a long with logging into the server.
+  
 ![Picture](PicLab1/savetime.png)  
 **Now you're done!**
 
