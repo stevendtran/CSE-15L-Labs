@@ -32,7 +32,7 @@ It should look like this everytime you scp now, you no longer have to input a pa
 * One example of time saving commands would be `scp file1.java file2.java your-user@ieng6.ucsd.edu:~/` this will copy over both file1.java and file2.java into the server's directory.
 * Another example would be `ssh your-user@ieng6.ucsd.edu "javac Config.java; java Config"` this will both compile and run your code on the server.  
 * You can run other commands a long with logging into the server.
-![Picture](PicLab1/savetime.png)
+![Picture](PicLab1/savetime.png)  
 **Now you're done!**
 
 
