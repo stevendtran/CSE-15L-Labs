@@ -31,3 +31,6 @@ There is nothing for the code to look so the code throws a outofbound error.
 ![Empty File Error](PicLab2/emptyError.png)
 
 [Commit History](https://github.com/stevendtran/markdown-parser/commit/ba2cf219b8c0a1c3da0433f605e7894a00cc8909)
+
+### Conclusion
+The bug is the actual problme with the code like it not being able to read the file and what not. Some of the symtoms of the code was it would be the code doing things that it is not suppose to do such counting pictures as links. The failure - inducing inputs are just the edge causes that the code does not account for like the new line error. The bug is something that woudl causes symptoms and failure inducing inputs. 
