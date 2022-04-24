@@ -1,4 +1,4 @@
-#Week 4 - Lab Report 2
+# Week 4 - Lab Report 2
 
 This is the picture of the changes of the code where my group and I fixed three errors.  
 ![Picture]screenshotThree.png  
