@@ -12,7 +12,7 @@ The three errors that we were trying to solve with the three fixes that we made 
     * [Empty Test File](threeTest/Empty.md)  
 
 ## Picture 
-The picture was causing problems for the code because it had the same format as putting a link in a markdown file ([]link()) the only differnce between the two is that the format for a picture you inlucde the ! at the beginning (![]picture()).
+The picture was causing problems for the code because it had the same format as putting a link in a markdown file ([]link()) the only differnce between the two is that the format for a picture you include the ! at the beginning (![]picture()).
 
 ![Picture error](PicLab2/pictureLink.png)  
 
