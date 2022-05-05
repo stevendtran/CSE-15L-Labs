@@ -5,7 +5,7 @@
 ![Picture](PicLab3/config.png)
 2. With that I no longer had to type in the hostname and username instead I used the alias ieng6.  
 ![Picture](PicLab3/alias.png)
-3. I used the `cp` command to copy a file from my local desktop to the ieng6 server.
+3. I used the `cp` command to copy a file from my local desktop to the ieng6 server.  
 ![Picture]()
 
 ## Setup Github Access from ieng6
