@@ -5,8 +5,8 @@
 ![Picture](PicLab3/config.png)
 2. With that I no longer had to type in the hostname and username instead I used the alias ieng6.  
 ![Picture](PicLab3/alias.png)
-3. I used the `cp` command to copy a file from my local desktop to the ieng6 server.  
-![Picture](PicLab3/copy.png)
+3. I used the `scp` command to copy a file from my local desktop to the ieng6 server.  
+![Picture](PicLab3/)
 
 ## Setup Github Access from ieng6
 1. The public is stored in Github in the settings.  
@@ -17,3 +17,6 @@
 ![Picture](PicLab3/git.png)
 4. Here is the [link](https://github.com/stevendtran/markdown-parse/commit/e5a0f9e5aace39f345da0c18df4d1eac1663aed7) to that commit.  
 
+## Copy whole directories with scp -r
+1. Copying over the whole markdown-parse directory into ieng6 account.
+![Picture](PicLab3/copy.png)
