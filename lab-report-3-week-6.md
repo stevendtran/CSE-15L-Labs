@@ -6,7 +6,8 @@
 2. With that I no longer had to type in the hostname and username instead I used the alias ieng6.  
 ![Picture](PicLab3/alias.png)
 3. I used the `scp` command to copy a file from my local desktop to the ieng6 server.  
-![Picture](PicLab3/)
+![Picture](PicLab3/scp1file.png)  
+![Picture](PicLab3/filelocation.png)
 
 ## Setup Github Access from ieng6
 1. The public is stored in Github in the settings.  
@@ -20,3 +21,7 @@
 ## Copy whole directories with scp -r
 1. Copying over the whole markdown-parse directory into ieng6 account.
 ![Picture](PicLab3/copy.png)
+2. Here I will be running the tester in markdown-parse using `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`.  
+![Picture](PicLab3/runningtest.png)  
+3. Combining `scp` and `ssh` using `;` to copy the whole directory and run all the test in one line.
+![Picture]()
