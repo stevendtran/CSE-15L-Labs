@@ -27,4 +27,4 @@
 ![Picture](PicLab3/combine1.png)  
 ![Picture](PicLab3/combine2.png)  
 
-P.S. My lab group an I were unable to solve one of the testers, so in the pictures only 8/9 of the test pass.
+P.S. My lab group an I were unable to solve one of the testers, so in the pictures only 7/8 of the test pass.
