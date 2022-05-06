@@ -1,4 +1,5 @@
 # Steven's Lab Website
 
-#### [First Lab Week 2(1-2)](https://stevendtran.github.io/CSE-15L-Labs/lab1.html)
-#### [Second Lab Week 4(3-4)](https://stevendtran.github.io/CSE-15L-Labs/labReport2.html)
+#### [First Lab Report](https://stevendtran.github.io/CSE-15L-Labs/lab1.html)
+#### [Second Lab Report](https://stevendtran.github.io/CSE-15L-Labs/labReport2.html)
+#### [Third Lab Report](https://stevendtran.github.io/CSE-15L-Labs/lab-report-3-week-6.html)
