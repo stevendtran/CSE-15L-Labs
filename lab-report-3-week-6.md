@@ -23,5 +23,6 @@
 ![Picture](PicLab3/copy.png)
 2. Here I will be running the tester in markdown-parse using `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`.  
 ![Picture](PicLab3/runningtest.png)  
-3. Combining `scp` and `ssh` using `;` to copy the whole directory and run all the test in one line.
-![Picture]()
+3. Combining `scp` and `ssh` using `;` to copy the whole directory and run all the test in one line.  
+![Picture](PicLab3/combine1.png)  
+![Picture](PicLab3/combine2.png)  
