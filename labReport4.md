@@ -11,7 +11,7 @@ All of the test failed for Snippit 1-3 because of various reasons. One of the re
 
 This is the result of the using the other group's code that we reviewed on Snippit 1, Snippit 2, and Snippit 3.  
 ![Picture](PicLab4/testOtherMP.png)  
-All of the test failed for Snippit 1-3 also failed the test. 
+All of the test also failed for Snippit 1-3. 
 
 ## Debugging
 **Snippit 1** : I believe that we would be able to make small changes to make my code work for snippit 1. What I would do is to check if there's a ' outside of the bracket and if there is a ' in the bracket. If there is one ' outside and one inside. That would mean that I would not have to count that link. 
