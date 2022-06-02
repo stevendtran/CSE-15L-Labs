@@ -22,4 +22,6 @@ For this test file given code was correct a returned with a arraylist containing
 ![Picture](PicLab5/pre201.png)
 
 ### Fixes
-For test file 194, the given code was the one that outputed incorrectly. I am unsure why the result just says url, it is very strange and I don't see what in the code would cause the code to act that way. It strange because in the test file there is not anything that says url. I would have to assume that there is something in the given code that causes it to think that * is always before an url. I know that there is a problem but I cannot seem to find what is actually causing the problem. 
+For test file 194, the given code was one that returned the wrong output. I am unsure why the result just says url, it is very strange and I don't see what in the code would cause the code to act that way. It strange because in the test file there is not anything that says url. I would have to assume that there is something in the given code that causes it to think that * is always before an url. I know that there is a problem but I cannot seem to find what is actually causing the problem. 
+
+For test file 201, my code was the one that returned the wrong output. I believe what is causing a problem is that my code does not account for links that are embeded in the text between the two open brackets. 
