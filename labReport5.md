@@ -18,6 +18,6 @@ This is the result of the given code:
 This is the result of my code:  
 ![Picture](PicLab5/mycode201.png)  
 
-For this test file given code was correct a returned with a arraylist containing one link. However, my code returned an empty arraylist. When looking at the preview for test file 201 we can see that the text is linked to a link.
+For this test file given code was correct a returned with a arraylist containing one link. However, my code returned an empty arraylist. When looking at the preview for test file 201 we can see that the text is linked to a link.  
 ![Picture](PicLab5/pre201.png)
 
